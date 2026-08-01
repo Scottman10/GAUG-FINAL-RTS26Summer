@@ -35,3 +35,5 @@ pps_capture_task   0      6           12633         32
 
 #Final reflection
 If I were to continue improving this project, I would add more hardware components to the Wokwi simulation to make it feel more like a real GNSS timing receiver instead of just using the basic GPIO loopback. One thing that surprised me during this project was how difficult it was to intentionally create a reasonable fault. Most of the changes I tried either caused the program to completely break, or they barely affected the system and only removed a small piece of functionality. It was harder than I expected to find a fault that demonstrated a real-time systems issue while still allowing the application to run. The most valuable thing I learned was the connection between GPS timing, the 1PPS signal, and real-time operating systems. Before this project, I did not realize how important hardware interrupts and precise timing are for keeping systems synchronized. I also learned how useful ChatGPT can be for explaining technical concepts and helping me find reliable sources to better understand topics that were new to me.
+
+https://wokwi.com/projects/471101559570443265
